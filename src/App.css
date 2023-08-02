@@ -25,9 +25,8 @@
   height: 10rem;
 }
 
-.side-container{
+.top-side-container{
   width: 30%;
-  height: 10rem;
 }
 
 .top-section{
@@ -86,4 +85,29 @@
   border-radius: 2rem;
   border: solid 3px #dcdcdc;
   margin: 0 0 5rem 0;
+}
+
+.body-side-container{
+  height: 100%;
+}
+
+.survey-section-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0 0 0;
+}
+
+.btm-survey, .ec2-survey, .ddk-survey, .mll-survey, .vtr-survey, .jbn-survey, .orr-survey, .knr-survey, .hmu-survey{
+  width: 20rem;
+  height: 5rem;
+  background-color: #ffffff;
+  margin: 1rem 0 1rem 0;
+  border: solid 3px #dcdcdc;
+  border-radius: 2rem;
+}
+
+.survey-title{
+  margin: 0 0 0 4rem;
 }
