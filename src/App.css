@@ -3,11 +3,18 @@
 }
 
 #navbar{
+  position: fixed;
   width: 10rem;
   height: 100%;
-  background-color: red;
+  border-right: solid 1px #dcdcdc;
+}
+
+.navbar-links-container{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin: 10rem 0 0 3rem;
 }
 
 .link{
