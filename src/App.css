@@ -106,8 +106,21 @@
   margin: 1rem 0 1rem 0;
   border: solid 3px #dcdcdc;
   border-radius: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .survey-title{
   margin: 0 0 0 4rem;
+}
+
+.survey-shop-title{
+  margin: 0 2rem 0 2rem;
+}
+
+.survey-shop-date-status{
+  width: 10rem;
+  margin: 0 2rem 0 2rem;
+  text-align: right;
 }
