@@ -131,3 +131,34 @@
   margin: 0 2rem 0 2rem;
   text-align: right;
 }
+
+.sales-main-container{
+  width: 100%;
+}
+
+.sales-body-container{
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 45rem;
+  margin: 0 0 0 15rem;
+}
+
+#sale-figures-box{
+  width: 35rem;
+  height: 40rem;
+  border: solid 3px #dcdcdc;
+  border-radius: 2rem;
+}
+
+.sale-figures-box-id{
+  width: 100%;
+  height: 5rem;
+}
+
+.sale-figures-container{
+  width: 100%;
+  height: 33rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
