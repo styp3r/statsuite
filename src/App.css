@@ -144,21 +144,26 @@
   margin: 0 0 0 15rem;
 }
 
-#sale-figures-box{
+.sales-box{
   width: 35rem;
   height: 40rem;
   border: solid 3px #dcdcdc;
   border-radius: 2rem;
-}
-
-.sale-figures-box-id{
-  width: 100%;
-  height: 5rem;
-}
-
-.sale-figures-container{
-  width: 100%;
-  height: 33rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
   overflow-x: hidden;
   overflow-y: scroll;
+}
+
+#sale-figures-box{
+  width: 30rem;
+}
+
+.single-sale-figure-container{
+  display: flex;
+  justify-content: space-evenly;
+  border: solid 3px #dcdcdc;
+  border-radius: 2rem;
 }
